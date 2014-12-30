@@ -1,0 +1,153 @@
+body
+{
+    margin: 0em 0em 0em;
+}
+
+#header
+{
+    background-color: #B1D6F0;
+    height: 4em;
+}
+
+/*Кнопки регистрации с корзины*/
+#registration, #basket, #administration
+{
+    display: inline-block;
+    margin-top: 1em;
+    margin-right: 1em;
+    float: right;
+}
+
+
+
+#registration a:link, #registration a:visited, #basket a:link, #basket a:visited,
+#administration  a:link, #administration  a:visited
+{
+    text-decoration: none;
+    color: #363940;
+    background-color: #B1D6F0;
+    border: 1px solid white;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+#registration a:hover, #basket a:hover, #administration  a:hover
+{
+    color: white;
+    background-color: #9fc0d8;
+    border: 1px solid whitesmoke;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+
+#menu
+{
+    position: absolute;
+    top: 4em;
+    left: 1em;
+    width: 14em;
+
+}
+
+#menu a:link, #menu a:visited, #admin_menu a:link, #admin_menu a:visited
+{
+    text-decoration: none;
+    color: #363940;
+}
+
+#menu a:hover, #admin_menu a:hover
+{
+    color: #858e9e;
+}
+
+#menu ul, #admin_menu
+{
+    list-style: none;
+}
+
+#menu li, #admin_menu li
+{
+    border-bottom: 1px dotted darkslategray;
+    margin-bottom: 0.3em;
+}
+
+#content
+{
+    margin-left: 17em;
+    margin-right: 2em;
+    text-align: justify;
+}
+
+#catalog, #catalog tr, #catalog td, #catalog th
+{
+    border-collapse: collapse;
+    border: 2px solid #B1D6F0;
+}
+
+#catalog th
+{
+    background-color: #eff6fc;
+}
+
+/*Столбцы таблицы товаров*/
+
+#brandW, #priceW, #instockW
+{
+    width: 3em;
+}
+#characW, #description
+{
+    width: 100em;
+}
+
+#modelW, #basketW
+{
+    width: 7em;
+}
+
+
+#footer
+{
+
+    background-color: #d1e0f3;
+    height: 60px;
+    clear: both;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.headerCont
+{
+    border-bottom: 1px dotted darkslategray;
+}
+/*блок стрелок и ссылок на страницы*/
+.pages
+{
+    margin-top: 1em;
+}
+
+/*Стиль стрелок и ссылок на номера страниц*/
+.pages a:link, .pages a:visited
+{
+    text-decoration: underline;
+    color: black;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.pages a:hover
+{
+    color: #858e9e;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/*текущая страница*/
+.pages span
+{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    background-color: whitesmoke;
+    border: 1px dotted black;
+}
+
